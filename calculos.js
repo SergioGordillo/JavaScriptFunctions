@@ -58,6 +58,10 @@ function calcularPuntos(partidosGanados, partidosEmpatados) { //Función que te 
     return totalPuntos;
 }
 
+function tirarDado(){ //Función que te permite obtener números aleatorios entre 1 y 6
+    let dado=Math.floor(Math.random() * 6) +1;
+    return dado;
+}
 
 
 
